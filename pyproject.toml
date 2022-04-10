@@ -1,0 +1,46 @@
+[tool.poetry]
+authors = ["Andrei Aksionov"]
+description = "Data science theory with examples"
+license = "MIT"
+name = "data-science-theory"
+version = "1.0.0"
+
+[tool.poetry.dependencies]
+ipykernel = "~6.12.1"
+python = "~3.10.3"
+
+[tool.poetry.dev-dependencies]
+black = {version = "*", extras = ["jupyter"]}
+flake8 = "*"
+flake8-absolute-import = "*"
+flake8-annotations = "*"
+flake8-bugbear = "*"
+flake8-commas = "*"
+flake8-comprehensions = "*"
+flake8-docstrings = "*"
+flake8-eradicate = "*"
+flake8-expression-complexity = "*"
+flake8-isort = "*"
+flake8-print = "*"
+flake8-pytest-style = "*"
+
+[tool.isort]
+ensure_newline_before_comments = true
+force_grid_wrap = 0
+include_trailing_comma = true
+line_length = 88
+multi_line_output = 3
+use_parentheses = true
+
+[tool.black]
+line_length = 120
+target-version = ["py310"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+python_files = "*_test.py"
+testpaths = ["tests"]
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0", "pip>=22.0.0"]
