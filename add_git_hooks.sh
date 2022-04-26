@@ -2,6 +2,11 @@
 
 git_hook_path=.git/hooks/pre-commit
 
-echo "#!/bin/sh\n\nblack .\nflake8" > "$git_hook_path"
+text="#!/bin/sh
 
-chmod +x "$git_hook_path"
+black .
+flake8"
+
+echo "$text" > $git_hook_path
+
+chmod +x $git_hook_path
