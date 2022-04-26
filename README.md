@@ -7,4 +7,22 @@
 
 In this repository one can find notebooks with examples of some topics that are used in data science.
 
-For me it's better to learn with code that's why I created this repository.
+***
+
+## Structure
+
+- notebooks
+  - statistics
+    - _z_value_and_statistics.ipynb_: this notebook explains what are z-value, z-statistics and p-value with many charts and examples
+
+## Install packages
+
+As this project uses pyproject.toml - [poetry](https://python-poetry.org/docs/) has to be installed.
+
+Also take a look at the required python version (described in **pyproject.toml** file).
+
+In order to install all required packages run this command (when you are in the folder with pyproject.toml file).
+
+```sh
+poetry install
+```
