@@ -14,6 +14,8 @@ In this repository one can find notebooks with examples of some topics that are 
 - notebooks
   - statistics
     - _z_value_and_statistics.ipynb_: this notebook explains what are z-value, z-statistics and p-value with many charts and examples
+  - dimensionality_reduction
+    - _PCA.ipynb_: in this notebook one can find implementation of PCA from scratch, step-by-step
 
 ## Install packages
 
