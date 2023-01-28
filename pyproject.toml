@@ -1,8 +1,8 @@
 [tool.poetry]
 authors = ["Andrei Aksionov"]
-description = "Data science theory with examples"
+description = "Data science concepts with examples"
 license = "MIT"
-name = "data-science-theory"
+name = "data-science-concepts"
 version = "1.0.0"
 
 [tool.poetry.dependencies]

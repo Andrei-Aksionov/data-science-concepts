@@ -1,5 +1,5 @@
 <p>
-    <h2 align="center">DATA SCIENCE THEORY</h2>
+    <h2 align="center">DATA SCIENCE CONCEPTS</h2>
     <h5 align="center">with examples</h5>
 </p>
 
